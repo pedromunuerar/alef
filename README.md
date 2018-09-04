@@ -1,2 +1,2 @@
 # alef
-Primeras pruebas
+Primeras pruebas sobre una aplicacion
