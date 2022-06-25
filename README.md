@@ -15,7 +15,9 @@ A very nice plugin has been developed to get this job done https://es.wordpress.
 Points 1 and 2 are so trivial... let's start document 3rd point
 
 ### 3. Figure out where is the data we need ###
--Categories
+
+Categories:
+
     wp_insert_term( 'My New Category', 'product_cat', array(
     'description' => 'Description for category', // optional  
     'parent' => 0, // optional
