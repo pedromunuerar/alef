@@ -14,7 +14,7 @@ A very nice plugin has been developed to get this job done https://es.wordpress.
 
 Points 1 and 2 are so trivial... let's start document 3rd point
 
-### 3. Figure out where is the data we need ###
+### 3. Figure out where is the data we need ###select * from mm_image_shop;
 
 Categories:
 
@@ -23,6 +23,9 @@ Categories:
     'parent' => 0, // optional
     'slug' => 'my-new-category' // optional
     ) );
+    
+    select * from mm_category_lang\G
+    select * from mm_image_shop;
  
 https://www.businessbloomer.com/woocommerce-programmatically-create-product/
 https://wordpress.stackexchange.com/questions/256830/programmatically-adding-images-to-media-library
