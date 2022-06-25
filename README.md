@@ -4,7 +4,7 @@ This is not a plugin, It's a place where I store my code. Many of this snippets 
 
 A very nice plugin has been developed to get this job done https://es.wordpress.org/plugins/fg-prestashop-to-woocommerce/ obviusly this is the best cost/benefit solution. But we want learn how to do it by our own hands.
 
-####The plan####
+#### The plan ####
 1. Get the prestashop database
 2. Install at local mysql
 3. Figure out where is the data we need
@@ -14,13 +14,13 @@ A very nice plugin has been developed to get this job done https://es.wordpress.
 
 Points 1 and 2 are so trivial... let's start document 3rd point
 
-###3. Figure out where is the data we need###
+### 3. Figure out where is the data we need ###
 -Categories
     wp_insert_term( 'My New Category', 'product_cat', array(
     'description' => 'Description for category', // optional  
     'parent' => 0, // optional
-      'slug' => 'my-new-category' // optional
-  ) );
+    'slug' => 'my-new-category' // optional
+    ) );
  
 https://www.businessbloomer.com/woocommerce-programmatically-create-product/
 https://wordpress.stackexchange.com/questions/256830/programmatically-adding-images-to-media-library
